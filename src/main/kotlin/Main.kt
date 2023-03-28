@@ -5,7 +5,7 @@ fun main() {
     ifelif()
 }
 fun ifelif() {
-    var time = 13
+    val time = 13
     if (time < 12) {
         println("Bom Dia.")
     } else if (time < 18) {
@@ -19,12 +19,11 @@ fun helloWorld(name: String) {
     println(message)
 }
 fun elseiflinha(){
-    var time2 = 20
-    var sim = if (time2 < 18) {
+    val time2 = 20
+    val sim = if (time2 < 18) {
         "Ohayo."
     } else {
         "Boa Noite."
     }
     println(sim)
 }
-fun abobora(){b}
